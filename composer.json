@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symfony/orm-pack": "^2.4",
+        "doctrine/doctrine-bundle": "^2.13",
+        "async-aws/dynamo-db": "^3.4"
+    }
+}
