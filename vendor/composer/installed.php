@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '83d0beac8647fea090a12c1f5afc64e5428f822b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '83d0beac8647fea090a12c1f5afc64e5428f822b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -162,6 +162,15 @@
             'install_path' => __DIR__ . '/../doctrine/sql-formatter',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'nikic/php-parser' => array(
+            'pretty_version' => 'v5.4.0',
+            'version' => '5.4.0.0',
+            'reference' => '447a020a1f875a434d62f2a401f53b82a396e494',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nikic/php-parser',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'php-http/async-client-implementation' => array(
             'dev_requirement' => false,
@@ -418,6 +427,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'symfony/maker-bundle' => array(
+            'pretty_version' => 'v1.62.1',
+            'version' => '1.62.1.0',
+            'reference' => '468ff2708200c95ebc0d85d3174b6c6711b8a590',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../symfony/maker-bundle',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'symfony/orm-pack' => array(
             'pretty_version' => 'v2.4.1',
             'version' => '2.4.1.0',
@@ -489,6 +507,15 @@
             'install_path' => __DIR__ . '/../symfony/polyfill-uuid',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'symfony/process' => array(
+            'pretty_version' => 'v7.2.0',
+            'version' => '7.2.0.0',
+            'reference' => 'd34b22ba9390ec19d2dd966c40aa9e8462f27a7e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/process',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'symfony/routing' => array(
             'pretty_version' => 'v7.2.3',
